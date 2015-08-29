@@ -89,6 +89,10 @@ ul{
 li{
     margin-bottom: 4%;
 }
+
+p{
+    color: #909394;
+}
 .super-row{
     border-bottom: solid 1px #d0d0d0;
 }
