@@ -28,6 +28,10 @@ a:hover{
 
 .container{
     background-color: #fff;
+    padding-bottom: 15%;
+    -webkit-box-shadow: 10px 10px 64px -14px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 64px -14px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 64px -14px rgba(0,0,0,0.75);
 }
 div.column > .row{
     background: #464B59;
@@ -38,6 +42,7 @@ div.column > .row{
     width: 80%;
     margin: auto;
     padding-top: 5%;
+    box-shadow: 5px;
 }
 
 div#header h1{
@@ -59,9 +64,9 @@ h2{
 h4{
     color: #fff;
     text-align: center;
-    font-size: 1.5em;
+    /* font-size: 1.5em; */
     /* padding: 0; */
-    margin: 0;
+    margin: 5%;
 }
 
 div#header{
@@ -76,9 +81,9 @@ div#header{
 }
 
 ul{
-        list-style: none;
-        padding-left: 3%;
-        /* width: 100%; */
+    list-style: none;
+    padding-left: 3%;
+    /* width: 100%; */
 }
 
 li{
