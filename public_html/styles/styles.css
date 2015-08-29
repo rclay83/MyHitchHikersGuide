@@ -1,41 +1,96 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
 /* 
     Created on : Aug 29, 2015, 10:10:57 AM
     Author     : richardclay
 */
+body{
+    padding: 0;
+    background-color: #d0d0d0;
+}
+
+a{
+    color: #4d7692;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #ff8a4a;
+}
 
 .column{
-    border: 1px solid green;
+    /*border: 1px solid green;*/
     display: inline-block;
     margin-left: 0;
     margin-right: 2%;
+    margin-bottom: 2%;
     width: 30%;
     vertical-align: top;
-    /* height: 50px; */
-    /* top: -50%; */
-    /* position: relative; */
 }
 
+.container{
+    background-color: #fff;
+}
+div.column > .row{
+    background: #464B59;
+    color: white;
+}
 
 .container{
     width: 80%;
     margin: auto;
+    padding-top: 5%;
+}
+
+div#header h1{
+    background: #909394;
+    color: #464B59;
+    font-size: 1.5em;
+    margin-top: 0;
+    padding-right: 2%;
+
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+h2{
+    text-align: center;
+    color: #909394;
+    margin-bottom: 7%;
 }
 
 h4{
-    color: #0073e1;
+    color: #fff;
     text-align: center;
+    font-size: 1.5em;
+    /* padding: 0; */
+    margin: 0;
+}
+
+div#header{
+    /* background: #BDB1B1; */
+    /* border-bottom: 2px solid grey; */
+    text-align: right;
+    width: 105%;
+    margin-left: -5%;
+    /* height: 23%; */
+    position: fixed;
+    top: 0;
+}
+
+ul{
+        list-style: none;
+        padding-left: 3%;
+        /* width: 100%; */
+}
+
+li{
+    margin-bottom: 4%;
+}
+.super-row{
+    border-bottom: solid 1px #d0d0d0;
 }
 
 .row{
-    border: solid 1px blue;
-    /* clear: both; */
+    /*border-bottom: solid 1px blue;*/
     margin: 5px;
     padding: 2%;
-    /*height: 250px;*/
 }
 

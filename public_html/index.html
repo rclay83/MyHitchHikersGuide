@@ -12,11 +12,12 @@ and open the template in the editor.
         <link rel="stylesheet" type="text/css" href="styles/styles.css">
     </head>
     <body>
+        <div id="header"> <!--Page header row-->
+            <h1>Richard's Guide to the Galaxy</h1>
+        </div>
         <div class="container">
-            <div class="row"> <!--Page header row-->
-                <h1>My guide to the galaxy!</h1>
-            </div>
-            <div class="row"><!-- row 1 -->
+
+            <div class="row super-row"><!-- row 1 -->
                 <div class="row-header">
                     <h2>Web</h2>
                 </div>
@@ -29,7 +30,7 @@ and open the template in the editor.
                             <a href="http://learnlayout.com/">Learn layout</a>
                             <p>CSS layout tips, etc...</p>
                         </li>
-                        <li><a href="#">link to somewhere...</a></li>
+                        <li><a href="#">CSS Tricks</a></li>
                         <li><a href="#">link to somewhere...</a></li>
                         <li><a href="#">link to somewhere...</a></li>
                         <li><a href="#">link to somewhere...</a></li>
@@ -38,10 +39,10 @@ and open the template in the editor.
                 </div>
                 <div class="column"><!--row 1 column 2-->
                     <div class="row">
-                        <h4>column header</h4>
+                        <h4>HTML</h4>
                     </div>
                     <ul>
-                        <li><a href="#">link to somewhere...</a></li>
+                        <li><a href="#">HTML Dog</a></li>
                     </ul>
                 </div>
                 <div class="column"><!--row 1 column 3-->
@@ -61,24 +62,56 @@ and open the template in the editor.
                     </ul>
                 </div>
             </div>
-            <div class="row"><!-- row 2 -->
+            <div class="row super-row"><!-- row 2 -->
                 <div class="row-header">
-                    <h2>row header</h2>
+                    <h2>Testability</h2>
                 </div>
                 <div class="column">
                     <div class="row">
-                        <h4>column header</h4><!--row 2 column 1-->
+                        <h4>Testability Explorer Blog</h4><!--row 2 column 1-->
                     </div>
                     <ul>
-                        <li><a href="#">link to somewhere...</a></li>
+                        <li>
+                            <a href="http://misko.hevery.com/2008/11/24/guide-to-writing-testable-code/">The Guide</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="column">
                     <div class="row">
-                        <h4>column header</h4><!--row 2 column 2-->
+                        <h4>Static State</h4><!--row 2 column 1-->
                     </div>
                     <ul>
+                        <li><a href="https://github.com/google/guice/wiki/AvoidStaticState">Avoid static state! (GUICE)</a></li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <div class="row">
+                        <h4>Dependency Injection</h4><!--row 2 column 2-->
+                    </div>
+                    <ul>
+                        <li><a href="#">GUICE</a></li>
                         <li><a href="#">link to somewhere...</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row super-row"><!-- row 3 -->
+                <div class="row-header">
+                    <h2>Version Control</h2>
+                </div>
+                <div class="column">
+                    <div class="row">
+                        <h4>Subversion</h4><!--row 3 column 1-->
+                    </div>
+                    <ul>
+                        <li><a href="#">TortoiseSVN</a></li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <div class="row">
+                        <h4>Git</h4><!--row 3 column 1-->
+                    </div>
+                    <ul>
+                        <li><a href="#">Git</a></li>
                     </ul>
                 </div>
             </div>
