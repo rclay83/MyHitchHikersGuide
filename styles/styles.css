@@ -16,8 +16,12 @@ a:hover{
     color: #ff8a4a;
 }
 
+a,
+p{
+    font-size: 22px;
+}
+
 .column{
-    /*border: 1px solid green;*/
     display: inline-block;
     margin-left: 0;
     margin-right: 2%;
@@ -27,6 +31,13 @@ a:hover{
 }
 
 .container{
+    width: 80%;
+    margin-left: 10%;
+    padding-right: 5%;
+    padding-left: 6%;
+    padding-top: 5%;
+    box-shadow: 5px;
+
     background-color: #fff;
     padding-bottom: 15%;
     -webkit-box-shadow: 10px 10px 64px -14px rgba(0,0,0,0.75);
@@ -38,52 +49,79 @@ div.column > .row{
     color: white;
 }
 
-.container{
-    width: 80%;
-    margin: auto;
-    padding-top: 5%;
-    box-shadow: 5px;
+div#header{
+    border-bottom: 2px solid #464B59; 
+    text-align: right;
+    width: 105%;
+    margin-left: -5%;
+    position: fixed;
+    top: 0;
 }
 
 div#header h1{
     background: #909394;
     color: #464B59;
-    font-size: 1.5em;
+    font-size: 2em;
     margin-top: 0;
     padding-right: 2%;
-
+    margin-bottom: 0;
     padding-bottom: 10px;
     padding-top: 5px;
 }
+
+div#side-bar-left{
+    position: fixed;
+    top: 7%;
+    width: 9%;
+}
+
+div#side-bar-left a{
+    font-size: 1.25em;
+    display: none;
+}
+
+div#side-bar-left div{
+    background-color: #464B59;
+    color: white;
+    font-size: 1.2em;
+    padding: 5%;
+    text-align: center;
+}
+
+div.column ul{
+    display: none;
+}
 h2{
     text-align: center;
+    font-size: 2.5em;
     color: #909394;
     margin-bottom: 7%;
 }
 
 h4{
     color: #fff;
+    font-size: 1.75em;
     text-align: center;
-    /* font-size: 1.5em; */
-    /* padding: 0; */
     margin: 5%;
 }
 
-div#header{
-    /* background: #BDB1B1; */
-    /* border-bottom: 2px solid grey; */
-    text-align: right;
-    width: 105%;
-    margin-left: -5%;
-    /* height: 23%; */
+img[alt="compass"]{
+    margin-right: 5px;
+    position: relative;
+    top: 5px;
+    width: 9%;
+}
+
+img[alt="hamburger"]{
+    width: 2%;
     position: fixed;
-    top: 0;
+    z-index: 1;
 }
 
 ul{
     list-style: none;
     padding-left: 3%;
-    /* width: 100%; */
+    width: 95%; 
 }
 
 li{
@@ -92,14 +130,28 @@ li{
 
 p{
     color: #909394;
+    line-height: 1.5;
 }
-.super-row{
-    border-bottom: solid 1px #d0d0d0;
+
+p.col-description{
+    display: none;
+    width: 95%;
+    padding-left: 3%;
 }
 
 .row{
-    /*border-bottom: solid 1px blue;*/
     margin: 5px;
     padding: 2%;
 }
 
+div.super-row{
+    border-bottom: solid 1px #d0d0d0;
+}
+
+.bot-pad{
+    padding-bottom: 15%;
+}
+
+.super-row:nth-last-of-type(1){
+    border-bottom: none;
+}
