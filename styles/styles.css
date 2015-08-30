@@ -89,6 +89,34 @@ img[alt="compass"]{
     width: 9%;
 }
 
+img[alt="planets"],
+img[alt="astronaut"],
+img[alt="rocket"]{
+    width: 4%;
+    position: fixed;
+    top: 10%;
+    -webkit-filter: opacity(20%);
+}
+
+img[alt="planets"]{
+    left: 3%;
+}
+
+img[alt="astronaut"]{
+    top: 25%;
+    left: 5%;
+    transform: rotate(-25deg);
+}
+
+img[alt="hamburger"]{
+    width: 2%;
+    position: fixed;
+    z-index: 1;
+}
+
+img[alt="rocket"]{
+    right: 3%;
+}
 ul{
     list-style: none;
     padding-left: 3%;
@@ -101,6 +129,7 @@ li{
 
 p{
     color: #909394;
+    line-height: 1.5;
 }
 div.super-row{
     border-bottom: solid 1px #d0d0d0;
