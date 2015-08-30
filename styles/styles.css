@@ -32,9 +32,8 @@ p{
 
 .container{
     width: 80%;
-    /*margin: auto;*/
     margin-left: 10%;
-    padding-right: 20%;
+    padding-right: 5%;
     padding-left: 6%;
     padding-top: 5%;
     box-shadow: 5px;
@@ -78,6 +77,19 @@ div#side-bar-left{
 
 div#side-bar-left a{
     font-size: 1.25em;
+    display: none;
+}
+
+div#side-bar-left div{
+    background-color: #464B59;
+    color: white;
+    font-size: 1.2em;
+    padding: 5%;
+    text-align: center;
+}
+
+div.column ul{
+    display: none;
 }
 h2{
     text-align: center;
@@ -100,34 +112,12 @@ img[alt="compass"]{
     width: 9%;
 }
 
-img[alt="planets"],
-img[alt="astronaut"],
-img[alt="rocket"]{
-    width: 4%;
-    position: fixed;
-    top: 10%;
-    -webkit-filter: opacity(20%);
-}
-
-img[alt="planets"]{
-    left: 3%;
-}
-
-img[alt="astronaut"]{
-    top: 25%;
-    left: 5%;
-    transform: rotate(-25deg);
-}
-
 img[alt="hamburger"]{
     width: 2%;
     position: fixed;
     z-index: 1;
 }
 
-img[alt="rocket"]{
-    right: 3%;
-}
 ul{
     list-style: none;
     padding-left: 3%;
@@ -144,16 +134,9 @@ p{
 }
 
 p.col-description{
+    display: none;
     width: 95%;
     padding-left: 3%;
-}
-div.super-row{
-    border-bottom: solid 1px #d0d0d0;
-    padding-bottom: 20%;
-}
-
-.super-row:nth-last-of-type(1){
-    border-bottom: none;
 }
 
 .row{
@@ -161,5 +144,14 @@ div.super-row{
     padding: 2%;
 }
 
+div.super-row{
+    border-bottom: solid 1px #d0d0d0;
+}
 
+.bot-pad{
+    padding-bottom: 15%;
+}
 
+.super-row:nth-last-of-type(1){
+    border-bottom: none;
+}
