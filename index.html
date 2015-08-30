@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Guide to the Universe</title>
+        <title>Guide to the Galaxy</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="styles/styles.css">
@@ -11,11 +11,18 @@
         <div id="header"> <!--Page header row-->
             <h1>Richard's Guide to the Galaxy</h1>
         </div>
+        <div id="side-bar-left">
+            <ul><a href="#web">web</a></ul>
+            <ul><a href="#testability">testability</a></ul>
+            <ul><a href="#version-control">version control</a></ul>
+            <ul><a href="#lang-lib">lang and lib</a></ul>
+            <!--<ul><a href="">link...</a></ul>-->
+        </div>
         <div class="container">
 
             <div class="row super-row">
                 <div >
-                    <h2>
+                    <h2 id="web">
                         WEB
                     </h2>
                 </div>
@@ -90,8 +97,8 @@
                 </div>
             </div>
             <div class="row super-row">
-                <div >
-                    <h2>
+                <div>
+                    <h2 id="testability">
                         Testability
                     </h2>
                 </div>
@@ -133,7 +140,7 @@
             </div>
             <div class="row super-row"><!-- row 3 -->
                 <div >
-                    <h2>
+                    <h2 id="version-control">
                         Version Control
                     </h2>
                 </div>
@@ -152,6 +159,39 @@
                                 - Daily Use Guide
                             </p>
                         </li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <div class="row">
+                        <h4>
+                            <img src="img/compass67.png" alt="compass"/>
+                            Git
+                        </h4>
+                    </div>
+                    <ul>
+                        <li><a href="#">Git</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row super-row"><!-- row 3 -->
+                <div>
+                    <h2 id="lang-lib">
+                        Language and Libraries
+                    </h2>
+                </div>
+                <div class="column">
+                    <div class="row">
+                        <h4>
+                            <img src="img/compass67.png" alt="compass"/>
+                            Gauva
+                        </h4>
+                    </div>
+                    <p class="col-description">
+                        Google's collection of core libraries. collections, 
+                        caching, primitives support, concurrency libraries, common annotations, string processing, I/O
+                    </p>
+                    <ul>
+                        <li><a href="https://github.com/google/guava/wiki">Github User Guide</a></li>
                     </ul>
                 </div>
                 <div class="column">

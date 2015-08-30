@@ -31,6 +31,14 @@ p{
 }
 
 .container{
+    width: 80%;
+    /*margin: auto;*/
+    margin-left: 10%;
+    padding-right: 20%;
+    padding-left: 6%;
+    padding-top: 5%;
+    box-shadow: 5px;
+
     background-color: #fff;
     padding-bottom: 15%;
     -webkit-box-shadow: 10px 10px 64px -14px rgba(0,0,0,0.75);
@@ -40,13 +48,6 @@ p{
 div.column > .row{
     background: #464B59;
     color: white;
-}
-
-.container{
-    width: 80%;
-    margin: auto;
-    padding-top: 5%;
-    box-shadow: 5px;
 }
 
 div#header{
@@ -67,6 +68,16 @@ div#header h1{
     margin-bottom: 0;
     padding-bottom: 10px;
     padding-top: 5px;
+}
+
+div#side-bar-left{
+    position: fixed;
+    top: 7%;
+    width: 9%;
+}
+
+div#side-bar-left a{
+    font-size: 1.25em;
 }
 h2{
     text-align: center;
@@ -130,6 +141,11 @@ li{
 p{
     color: #909394;
     line-height: 1.5;
+}
+
+p.col-description{
+    width: 95%;
+    padding-left: 3%;
 }
 div.super-row{
     border-bottom: solid 1px #d0d0d0;
