@@ -12,6 +12,11 @@ a{
     text-decoration: none;
 }
 
+p{
+    color: #909394;
+    line-height: 1.5;
+}
+
 a:hover{
     color: #ff8a4a;
 }
@@ -19,6 +24,7 @@ a:hover{
 a,
 p{
     font-size: 22px;
+    margin-bottom: 0;
 }
 
 .column{
@@ -28,6 +34,7 @@ p{
     margin-bottom: 2%;
     width: 30%;
     vertical-align: top;
+    border: 1px solid #464B59;
 }
 
 .container{
@@ -56,6 +63,7 @@ div#header{
     margin-left: -5%;
     position: fixed;
     top: 0;
+    z-index: 1;
 }
 
 div#header h1{
@@ -76,7 +84,8 @@ div#side-bar-left{
 }
 
 div#side-bar-left a{
-    font-size: 1.25em;
+    font-size: 1em;
+    line-height: 2;
     display: none;
 }
 
@@ -91,6 +100,14 @@ div#side-bar-left div{
 div.column ul{
     display: none;
 }
+
+div.column li:nth-child(even){
+    background-color: #D0D0D0;
+}
+div.column li:nth-child(even) p{
+    color: #464B59;
+}
+
 h2{
     text-align: center;
     font-size: 2.5em;
@@ -100,9 +117,11 @@ h2{
 
 h4{
     color: #fff;
-    font-size: 1.75em;
+    font-size: 1.2em;
     text-align: center;
-    margin: 5%;
+    margin: 0%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 img[alt="compass"]{
@@ -113,25 +132,24 @@ img[alt="compass"]{
 }
 
 img[alt="hamburger"]{
-    width: 2%;
+    width: 3%;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
 }
 
 ul{
     list-style: none;
-    padding-left: 3%;
-    width: 95%; 
+    padding-left: 0%;
+    margin-bottom: 0;
+    /*width: 95%;*/ 
 }
 
 li{
-    margin-bottom: 4%;
+    /*margin-bottom: 4%;*/
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
-p{
-    color: #909394;
-    line-height: 1.5;
-}
 
 p.col-description{
     display: none;
@@ -140,7 +158,7 @@ p.col-description{
 }
 
 .row{
-    margin: 5px;
+    /*margin: 5px;*/
     padding: 2%;
 }
 

@@ -7,7 +7,7 @@ $(document).ready(function () {
         $("div#side-bar-left a").toggle();
     });
 
-    $("h4").click(function (event) {
+    $("h4").parent().click(function (event) {
         var column = $(event.target).closest("div.column");
         $(column).find("ul").toggle(toggleSpeed);
         $(column).find("p.col-description").toggle(toggleSpeed);
