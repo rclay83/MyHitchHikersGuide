@@ -10,11 +10,13 @@ body{
 a{
     color: #4d7692;
     text-decoration: none;
+    font-family: 'Slabo 27px', serif;
 }
 
 p{
     color: #909394;
     line-height: 1.5;
+        font-family: 'Open Sans Condensed', sans-serif;
 }
 
 a:hover{
@@ -23,6 +25,7 @@ a:hover{
 
 a,
 p{
+
     font-size: 22px;
     margin-bottom: 0;
 }
@@ -108,11 +111,18 @@ div.column li:nth-child(even) p{
     color: #464B59;
 }
 
+h1,
+h2,
+h4{
+    font-family: 'Slabo 27px', serif;
+}
 h2{
-    text-align: center;
-    font-size: 2.5em;
+    border-bottom: solid 1px #d0d0d0;
+/*    text-align: center;*/
+    font-size: 2em;
     color: #909394;
-    margin-bottom: 7%;
+    margin-bottom: 1%;
+    width: 95.5%;
 }
 
 h4{
@@ -163,7 +173,7 @@ p.col-description{
 }
 
 div.super-row{
-    border-bottom: solid 1px #d0d0d0;
+    /*border-bottom: solid 1px #d0d0d0;*/
 }
 
 .bot-pad{
