@@ -16,8 +16,12 @@ a:hover{
     color: #ff8a4a;
 }
 
+a,
+p{
+    font-size: 22px;
+}
+
 .column{
-    /*border: 1px solid green;*/
     display: inline-block;
     margin-left: 0;
     margin-right: 2%;
@@ -57,7 +61,7 @@ div#header{
 div#header h1{
     background: #909394;
     color: #464B59;
-    font-size: 1.5em;
+    font-size: 2em;
     margin-top: 0;
     padding-right: 2%;
     margin-bottom: 0;
@@ -66,16 +70,23 @@ div#header h1{
 }
 h2{
     text-align: center;
+    font-size: 2.5em;
     color: #909394;
     margin-bottom: 7%;
 }
 
 h4{
     color: #fff;
+    font-size: 1.75em;
     text-align: center;
-    /* font-size: 1.5em; */
-    /* padding: 0; */
     margin: 5%;
+}
+
+img[alt="compass"]{
+    margin-right: 5px;
+    position: relative;
+    top: 5px;
+    width: 9%;
 }
 
 ul{
@@ -101,7 +112,6 @@ div.super-row{
 }
 
 .row{
-    /*border-bottom: solid 1px blue;*/
     margin: 5px;
     padding: 2%;
 }
