@@ -16,7 +16,7 @@ a{
 p{
     color: #909394;
     line-height: 1.5;
-        font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 a:hover{
@@ -28,6 +28,7 @@ p{
 
     font-size: 22px;
     margin-bottom: 0;
+    margin-top: 0;
 }
 
 .column{
@@ -118,7 +119,6 @@ h4{
 }
 h2{
     border-bottom: solid 1px #d0d0d0;
-/*    text-align: center;*/
     font-size: 2em;
     color: #909394;
     margin-bottom: 1%;
@@ -151,13 +151,10 @@ ul{
     list-style: none;
     padding-left: 0%;
     margin-bottom: 0;
-    /*width: 95%;*/ 
 }
 
 li{
-    /*margin-bottom: 4%;*/
-    padding-left: 3%;
-    padding-right: 3%;
+    padding: 3%;
 }
 
 
@@ -168,12 +165,10 @@ p.col-description{
 }
 
 .row{
-    /*margin: 5px;*/
     padding: 2%;
 }
 
 div.super-row{
-    /*border-bottom: solid 1px #d0d0d0;*/
 }
 
 .bot-pad{
