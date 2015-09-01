@@ -142,7 +142,7 @@ img[alt="compass"]{
 }
 
 img[alt="hamburger"]{
-    width: 3%;
+    width: 40px;
     position: fixed;
     z-index: 2;
 }
