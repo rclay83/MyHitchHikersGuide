@@ -34,7 +34,7 @@
                         <div class="title">
                             <h3>Use cases (item 57)</h3>
                         </div>
-                        <p>
+                        <p class="detail">
                             Use exceptions for exceptional conditions. i.e. don't use exceptions
                             for normal control flow. Use exceptions to communicate problems to 
                             developers. i.e. a precondition is violated or an object state is 
@@ -45,7 +45,7 @@
                         <div class="title">
                             <h3>Checked vs. Unchecked (item 58)</h3>
                         </div>
-                        <p>
+                        <p class="detail">
                             Use checked conditions for reasonably recoverable conditions. 
                             Use runtime exceptions for programming errors. 
                         </p>
@@ -56,37 +56,37 @@
                         </div>
                         <ul>
                             <li>
-                                <p>
+                                <p class="detail">
                                     <b>IllegalArgumentException:</b> 
                                     Inappropriate parameter value
                                 </p>
                             </li>
                             <li>
-                                <p>
+                                <p class="detail">
                                     <b>IllegalStateException: </b>
                                     object state not ready for method call
                                 </p>
                             </li>
                             <li>
-                                <p>
+                                <p class="detail">
                                     <b>NullPointerException: </b>
                                     null parameter passed when not allowed
                                 </p>
                             </li>
                             <li>
-                                <p>
+                                <p class="detail">
                                     <b>IndexOutOfBoundsException: </b>
                                     index value not in appropriate range
                                 </p>
                             </li>
                             <li>
-                                <p>
+                                <p class="detail">
                                     <b>ConcurrentModificationException: </b>
                                     detection of concurrent modification
                                 </p>
                             </li>
                             <li>
-                                <p>
+                                <p class="detail">
                                     <b>UnsupportedOperationException: </b>
                                     object does not support method. Good use
                                     case is interface implementations where method 
@@ -94,6 +94,19 @@
                                 </p>
                             </li>
                         </ul>
+                    </li>
+                    <li>
+                        <div class="title">
+                            <h3>Exception Translation and Chaining(item 61)</h3>
+                        </div>
+                        <p class="detail">
+                            Wrap lower level exceptions with higher level exceptions
+                            if they provide better information about what went wrong
+                            given the appropriate level of abstraction. If lower level
+                            exceptions might be useful in debugging use exceptions chaining where
+                            you pass the lower level abstraction as the "cause" arg of the higher
+                            level exception. 
+                        </p>
                     </li>
                 </ul>
             </div>

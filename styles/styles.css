@@ -26,7 +26,7 @@
     a,
     p{
 
-        font-size: 22px;
+        font-size: 27px;
         margin-bottom: 0;
         margin-top: 0;
     }
@@ -110,11 +110,12 @@
         border-bottom: 2px solid #464B59;
         color: #464B59;
         display: inline-block;
+        font-size: 1.65em;
         padding-bottom: 2px;
     }
 
     div.column ul{
-        display: none;
+        /*display: none;*/
     }
 
     div.column li:nth-child(even){
@@ -181,7 +182,10 @@
         width: 95%;
         padding-left: 3%;
     }
-
+    
+    p.detail{
+        max-width: 60%;
+    }
     .row{
         padding: 2%;
     }
