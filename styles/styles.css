@@ -94,7 +94,6 @@
     }
     
     div#side-bar-left ul{
-        /*display: none;*/
         margin-top: 0;
     }
 
@@ -178,8 +177,9 @@
 
 
     p.col-description{
-        display: none;
-        width: 95%;
+        width: 97%;
+        background-color: #909394;
+        color: #fff;
         padding-left: 3%;
     }
     
@@ -199,4 +199,9 @@
 
     .super-row:nth-last-of-type(1){
         border-bottom: none;
+    }
+    
+    p.col-description a{
+        font-family: inherit;
+        color: inherit;
     }
