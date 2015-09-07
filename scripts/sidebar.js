@@ -4,7 +4,7 @@ var listStatus = listState.expand;
 
 $(document).ready(function () {
     $("img[alt='hamburger']").click(function () {
-        $("div#side-bar-left a").toggle();
+        $("div#side-bar-left ul").toggle();
     });
 
     $("h4").parent().click(function (event) {
