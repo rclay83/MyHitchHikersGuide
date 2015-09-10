@@ -71,10 +71,11 @@
         z-index: 1;
     }
 
-    div#header h1{
+    div#header h1,
+    div#header a{
         background: #909394;
         color: #464B59;
-        font-size: 2em;
+        font-size: 1.32em;
         margin-top: 0;
         padding-right: 2%;
         margin-bottom: 0;
