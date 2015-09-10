@@ -1,6 +1,6 @@
 var toggleSpeed = 250;
 var listState = {expand: "Expand all", collapse: "Collapse all"};
-var listStatus = listState.expand;
+var listStatus = listState.collapse;
 
 $(document).ready(function () {
     $("img[alt='hamburger']").click(function () {
