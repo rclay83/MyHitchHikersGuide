@@ -8,22 +8,23 @@
         <link rel="stylesheet" type="text/css" href="styles/styles.css">
     </head>
     <body>
-        <img src="img/hamburger.svg" alt="hamburger"/>
-        <div id="header"> <!--Page header row-->
-            <!--<h1>Richard's Guide to the Galaxy</h1>-->
-            <h1><a href="index.html">Richard's Guide to the Galaxy</a></h1>
-        </div>
-        <div id="side-bar-left">
-            <ul>
-                <li><a href="index.html#web">Web</a></li>
-                <li><a href="index.html#testability">Testing</a></li>
-                <li><a href="index.html#version-control">VersionCTRL</a></li>
-                <li><a href="index.html#lang-lib">Lang &amp Libs</a></li>
-                <li><a href="index.html#code-quality">Code Quality</a></li>
-                <li><a href="index.html#commands">Commands</a></li>
-            </ul>
-            <div>Collapse all</div>
-        </div>
+        <nav>
+            <div id="header"> <!--Page header row-->
+                <img src="img/hamburger.svg" alt="hamburger"/>
+                <h1><a href="index.html">Guide to the Galaxy</a></h1>
+                <div id="collapse-btn"><h3>Collapse all</h3></div>
+            </div>
+            <div id="side-bar-left">
+                <ul>
+                    <li><a href="index.html#code-quality">Code Quality</a></li>
+                    <li><a href="index.html#commands">Commands</a></li>
+                    <li><a href="index.html#lang-lib">Language &amp Libraries</a></li>
+                    <li><a href="index.html#testability">Testing</a></li>
+                    <li><a href="index.html#version-control">Version Control</a></li>
+                    <li><a href="index.html#web">Web</a></li>
+                </ul>
+            </div>
+        </nav>
         <div class="container">
 
             <div class="row super-row">
@@ -35,7 +36,7 @@
                 <div class="column">
                     <div class="row">
                         <h4>
-                            
+
                             CSS
                         </h4>
                     </div>
@@ -77,7 +78,7 @@
                 <div class="column">
                     <div class="row">
                         <h4>
-                            
+
                             HTML
                         </h4>
                     </div>
@@ -94,7 +95,7 @@
                 <div class="column">
                     <div class="row">
                         <h4>
-                            
+
                             JavaScript
                         </h4>
                     </div>
@@ -135,7 +136,7 @@
                 <div class="column">
                     <div class="row">
                         <h4>
-                            
+
                             Testability Explorer Blog
                         </h4>
                     </div>
@@ -154,7 +155,7 @@
                 <div class="column">
                     <div class="row">
                         <h4>
-                            
+
                             Static State
                         </h4>
                     </div>
@@ -167,7 +168,7 @@
                 <div class="column">
                     <div class="row">
                         <h4>
-                            
+
                             Dependency Injection</h4>
                     </div>
                     <ul>
@@ -179,7 +180,7 @@
                 <div class="column">
                     <div class="row">
                         <h4>
-                            
+
                             Mockito</h4>
                     </div>
                     <ul>
@@ -190,7 +191,7 @@
                 <div class="column">
                     <div class="row">
                         <h4>
-                            
+
                             GTAC</h4>
                     </div>
                     <p class="col-description">
@@ -211,7 +212,7 @@
                 <div class="column">
                     <div class="row">
                         <h4>
-                            
+
                             Subversion
                         </h4>
                     </div>
@@ -228,7 +229,7 @@
                 <div class="column">
                     <div class="row">
                         <h4>
-                            
+
                             Git
                         </h4>
                     </div>
@@ -246,7 +247,7 @@
                 <div class="column">
                     <div class="row">
                         <h4>
-                            
+
                             Gauva
                         </h4>
                     </div>
@@ -261,7 +262,7 @@
                 <div class="column">
                     <div class="row">
                         <h4>
-                            
+
                             Apache Commons
                         </h4>
                     </div>
@@ -273,7 +274,7 @@
                 <div class="column">
                     <div class="row">
                         <h4>
-                            
+
                             Jackson
                         </h4>
                     </div>
@@ -295,7 +296,7 @@
                 <div class="column">
                     <div class="row">
                         <h4>
-                            
+
                             Effective Java
                         </h4>
                     </div>
@@ -304,12 +305,12 @@
                     </p>
                     <ul>
                         <li><a href="exceptions.html">Exceptions</a></li>
-                        <li><a href="#code-quality">Generics</a></li>
-                        <li><a href="#code-quality">Concurrency</a></li>
+                        <li><p><a href="#code-quality">Generics</a> - Comming Soon</p></li>
+                        <li><p><a href="#code-quality">Concurrency</a> - Comming Soon</p></li>
                     </ul>
                 </div>
             </div>
-        <!--</div>-->
+            <!--</div>-->
             <div class="row super-row">
                 <div>
                     <h2 id="commands">
@@ -319,41 +320,25 @@
                 <div class="column">
                     <div class="row">
                         <h4>
-                            
-                            Linux
-                        </h4>
-                    </div>
-                    <ul>
-                        <li><a href="#commands">ls</a></li>
-                    </ul>
-                </div>
-                <div class="column">
-                    <div class="row">
-                        <h4>
-                            
+
                             Git
                         </h4>
                     </div>
                     <ul>
                         <li>
-                            <a href="http://git-scm.com/docs/git-status">git status</a>
-                            <p>"Show the working tree status"</p>
-                            <a href="git-options.html#status">options</a>
+                            <a href="http://git-scm.com/docs/">Docs</a>
+                        </li>
+                        <li>
+                            <a href="git-options.html#status">Commands</a>
+                        </li>
+                        <li>
+                            <a href="img/github-git-cheat-sheet.pdf">cheet sheet</a>
                         </li>
                     </ul>
                 </div>
                 <div class="column">
                     <div class="row">
                         <h4>
-                            
-                            svn
-                        </h4>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="row">
-                        <h4>
-                            
                             HomeBrew
                         </h4>
                     </div>
@@ -362,14 +347,36 @@
                     </p>
                     <ul>
                         <li>
-                            <a href="https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/FAQ.md">FAQ</a>
-                            <p>aka Common Commands</p></li>
+                            <p><a href="https://github.com/Homebrew/homebrew/blob/master/share/doc/homebrew/FAQ.md">FAQ</a>
+                             - aka Common Commands</p></li>
                         <li><a href="#commands">brew doctor</a></li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <div class="row">
+                        <h4>
+
+                            Linux
+                        </h4>
+                    </div>
+                    <ul>
+                        <li><p>Comming soon</p></li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <div class="row">
+                        <h4>
+                            SVN
+                        </h4>
+                    </div>
+                    <ul>
+                        <li>
+                            <p>Comming Soon</p>
+                        </li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div id="icon-citation">Icons made by <a href="http://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>             is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a></div>
     </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="scripts/sidebar.js" type="text/javascript"></script>
