@@ -36,7 +36,7 @@
         margin-left: 0;
         margin-right: 2%;
         margin-bottom: 2%;
-        width: 30%;
+        width: 73%;
         vertical-align: top;
         border: 1px solid #464B59;
     }
@@ -44,9 +44,8 @@
     .container{
         width: 80%;
         min-height: 800px;
-        margin-left: 10%;
-        padding-right: 5%;
-        padding-left: 6%;
+        margin-left: 25%;
+        padding-left: 8%;
         padding-top: 5%;
         box-shadow: 5px;
 
@@ -114,10 +113,6 @@
         padding-bottom: 2px;
     }
 
-    div.column ul{
-        /*display: none;*/
-    }
-
     div.column li:nth-child(even){
         background-color: #D0D0D0;
     }
@@ -136,12 +131,13 @@
     h4{
         font-family: 'Slabo 27px', serif;
     }
+    
     h2{
         border-bottom: solid 2px #909394;
         font-size: 2em;
         color: #909394;
         margin-bottom: 1%;
-        width: 95.5%;
+        width: 73%;
     }
 
     h4{
@@ -149,8 +145,6 @@
         font-size: 1.2em;
         text-align: center;
         margin: 0%;
-        padding-top: 2%;
-        padding-bottom: 2%;
     }
 
     img[alt="compass"]{
