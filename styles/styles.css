@@ -93,8 +93,8 @@ div#side-bar-left a{
     line-height: 1.2;
 }
 
-div#side-bar-left ul{o
-                     margin-top: 0;
+div#side-bar-left ul{
+    margin-top: 0;
 }
 
 div#collapse-btn h3{
@@ -179,9 +179,6 @@ p.col-description{
     padding-left: 3%;
 }
 
-/*    p.detail{
-        max-width: 60%;
-    }*/
 .row{
     padding: 2%;
 }
@@ -200,4 +197,16 @@ div.super-row{
 p.col-description a{
     font-family: inherit;
     color: inherit;
+}
+
+/** Mobile **/
+@media screen and (max-width: 767px) {
+    div#side-bar-left{
+        display: none;
+    }
+    div.container{
+        margin-right: 0;
+        margin-left: 0;
+        width: 100%;
+    }
 }
