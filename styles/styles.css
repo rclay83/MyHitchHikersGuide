@@ -191,3 +191,15 @@
         font-family: inherit;
         color: inherit;
     }
+    
+    /** Mobile **/
+    @media screen and (max-width: 767px) {
+        div#side-bar-left{
+            display: none;
+        }
+        div.container{
+            margin-right: 0;
+            margin-left: 0;
+            width: 100%;
+        }
+    }
