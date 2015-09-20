@@ -1,6 +1,7 @@
 var toggleSpeed = 250;
-var listState = {expand: "Expand all", collapse: "Collapse all"};
-var listStatus = listState.collapse;
+var listCollapsed = false;
+var collapseListText = "Collapse all";
+var expandListText = "Expand all";
 
 $(document).ready(function () {
     $("img[alt='hamburger']").click(function () {
@@ -13,23 +14,28 @@ $(document).ready(function () {
         $(column).find("p.col-description").toggle(toggleSpeed);
     });
 
-    $("div#side-bar-left div").click(function () {
-        
-        if (listStatus === listState.expand)
-        {
-            $("div.column ul").show();
-            $("p.col-description").show();
-            $(event.target).text(listState.collapse);
-            listStatus = listState.collapse;
-            $("div.super-row").addClass("bot-pad");
-        }
-        else
-        {
-            $("div.column ul").hide();
-            $("p.col-description").hide();
-            $(event.target).text(listState.expand);
-            listStatus = listState.expand;
-            $("div.super-row").removeClass("bot-pad");
-        }
+    $("div#collapse-btn").click(function () {
+        toggleCollapsed("div#collapse-btn h3");
     });
 });
+
+function toggleCollapsed(element) {
+    if (listCollapsed)
+    {
+        $("div.column ul").show();
+        $("p.col-description").show();
+        $(element).text(collapseListText);
+        listCollapsed = false;
+        $("div.super-row").addClass("bot-pad");
+    }
+    else
+    {
+        $("div.column ul").hide();
+        $("p.col-description").hide();
+        $(element).text(expandListText);
+        listCollapsed = true;
+        $("div.super-row").removeClass("bot-pad");
+    }
+}
+;
+
